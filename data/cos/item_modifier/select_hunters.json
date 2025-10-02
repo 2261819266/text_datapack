@@ -1,0 +1,15 @@
+[
+  {
+    "function": "sequence",
+    "functions": [
+      {
+        "function": "minecraft:set_name",
+        "name": {
+          "italic": false,
+          "text": "猎人",
+          "color": "red"
+        }
+      }
+    ]
+  }
+]

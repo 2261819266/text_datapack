@@ -1,0 +1,28 @@
+{
+    "parent": "cos:cos/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:grass_block"
+        },
+        "title": {
+            "text": "辅助功能"
+        },
+        "description": {
+            "text": "使用 \n /function cos:randomtp/+维度 \n 切换维度"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "root"
+        ]
+    ]
+}

@@ -1,0 +1,24 @@
+{
+  "pack": {
+	"supported_formats": [9, 333],
+    "pack_format": 9, 
+    "description": [
+      {
+        "text": "数据包名称",
+        "color": "green"
+      },
+      {
+        "text": "简要介绍\nby 某某作者",
+        "color": "gold"
+      }
+    ]
+  },
+  "filter": {
+    "block": [
+      {
+        "namespace": "命名空间", 
+        "path": "文件路径" 
+      }
+    ]
+  }
+}

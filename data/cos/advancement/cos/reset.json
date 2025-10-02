@@ -1,0 +1,28 @@
+{
+    "parent": "cos:cos/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond_pickaxe"
+        },
+        "title": {
+            "text": "重置状态"
+        },
+        "description": {
+            "text": "使用/function cos:reset命令重置所有数据"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "root"
+        ]
+    ]
+}

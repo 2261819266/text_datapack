@@ -1,0 +1,28 @@
+{
+    "parent": "cos:cos/root",
+    "display": {
+        "icon": {
+            "id": "minecraft:diamond_sword"
+        },
+        "title": {
+            "text": "选择角色"
+        },
+        "description": {
+            "text": "铁镐选择逃跑者，铁剑选择追杀者"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "root": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "root"
+        ]
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "set_name",
+              "name": {
+                "color": "#FF0000",
+                "translate": "item.ex.selector"
+              }
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{id:'cos:selector',CustomModelData:12970013}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

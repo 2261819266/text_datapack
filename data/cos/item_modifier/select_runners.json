@@ -1,0 +1,10 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "name": {
+      "italic": false,
+      "text": "逃跑者",
+      "color": "green"
+    }
+  }
+]

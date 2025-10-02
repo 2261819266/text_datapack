@@ -4,11 +4,11 @@
     "pack_format": 9, 
     "description": [
       {
-        "text": "数据包名称",
+        "text": "\u00a7ltest datapack\n",
         "color": "green"
       },
       {
-        "text": "简要介绍\nby 某某作者",
+        "text": "A test datapack\nby Vastosine",
         "color": "gold"
       }
     ]
@@ -16,7 +16,7 @@
   "filter": {
     "block": [
       {
-        "namespace": "命名空间", 
+        "namespace": "cos", 
         "path": "文件路径" 
       }
     ]

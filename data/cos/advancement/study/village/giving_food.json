@@ -1,0 +1,29 @@
+{
+  "parent": "cos:study/village/root",
+  "criteria": {
+    "offer_food": {
+      "trigger": "thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "villager"
+        },
+        "item": {
+          "items": [
+            "bread",
+            "potato",
+            "carrot",
+            "wheat",
+            "beetroot"
+          ]
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "拿去吧你",
+    "description": "给予村民食物",
+    "icon": {
+      "id": "jack_o_lantern"
+    }
+  }
+}

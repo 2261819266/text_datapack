@@ -1,0 +1,26 @@
+{
+  "display": {
+    "description": "发现一个村庄",
+    "title": "掠夺的开始",
+    "icon": {
+      "id": "emerald"
+    },
+    "background": "minecraft:textures/block/emerald_ore.png"
+  },
+
+  "criteria": {
+    "enter_village": {
+      "trigger": "location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structures": "#village"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}

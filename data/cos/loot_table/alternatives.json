@@ -1,0 +1,41 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 100,
+            "entries": [
+                {
+                    "type": "alternatives",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "diamond",
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "type": "item",
+                            "name": "emerald",
+                            "conditions": [
+                                {
+                                    "condition": "random_chance",
+                                    "chance": 0.05
+                                }
+                            ]
+                        }
+                    ],
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "dirt",
+                    "weight": 3
+                }
+            ]
+        }
+    ]
+}

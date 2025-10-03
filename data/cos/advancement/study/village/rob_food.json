@@ -1,0 +1,38 @@
+{
+  "parent": "cos:study/village/root",
+  "display": {
+    "title": "你...你干嘛",
+    "description": "拿来吧你",
+    "icon": {
+      "id": "wooden_sword",
+      "components": {
+        "enchantments": {
+          "looting": 3
+        }
+      }
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "rob": {
+      "trigger": "thrown_item_picked_up_by_player",
+      "conditions": {
+        "entity": {
+          "type": "villager"
+        },
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "cos:study/village/root": true,
+              "cos:study/village/giving_food": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

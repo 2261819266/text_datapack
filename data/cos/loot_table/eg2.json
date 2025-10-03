@@ -1,0 +1,172 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "alternatives",
+          "children": [
+            {
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.45454545
+                }
+              ],
+              "type": "alternatives",
+              "children": [
+                {
+                  "type": "group",
+                  "conditions": [
+                    {
+                      "condition": "random_chance",
+                      "chance": 0.233
+                    }
+                  ],
+                  "children": [
+                    {
+                      "type": "item",
+                      "name": "diamond_ore",
+                      "weight": 2
+                    },
+                    {
+                      "type": "item",
+                      "name": "deepslate_diamond_ore",
+                      "weight": 2
+                    },
+                    {
+                      "type": "empty"
+                    }
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "enchanted_book",
+                  "conditions": [
+                    {
+                      "condition": "random_chance",
+                      "chance": 0.9
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "enchant_with_levels",
+                      "levels": 30,
+                      "options": "#on_random_loot"
+                    }
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "netherite_block",
+                  "conditions": [
+                    {
+                      "condition": "entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "location": {
+                          "dimension": "minecraft:the_nether"
+                        }
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": 3
+                    }
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "diamond_block",
+                  "functions": [
+                    {
+                      "function": "set_count",
+                      "count": {
+                        "type": "binomial",
+                        "n": 40,
+                        "p": 0.5
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "conditions": [
+                {
+                  "condition": "random_chance",
+                  "chance": 0.8333333333
+                }
+              ],
+              "type": "alternatives",
+              "children": [
+                {
+                  "type": "item",
+                  "name": "potion",
+                  "functions": [
+                    {
+                      "function": "set_potion",
+                      "id": "fire_resistance"
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "condition": "entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                        "flags": {
+                          "is_on_fire": true
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "item",
+                  "name": "golden_pickaxe",
+                  "functions": [
+                    {
+                      "function": "enchant_with_levels",
+                      "levels": 50,
+                      "options": "fortune"
+                    },
+                    {
+                      "function": "set_damage",
+                      "damage": {
+                        "type": "uniform",
+                        "max": 0.1,
+                        "min": 0.01
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "loot_table",
+              "value": "chests/bastion_hoglin_stable"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 1
+        },
+        {
+          "type": "loot_table",
+          "value": "minecraft:chests/end_city_treasure",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

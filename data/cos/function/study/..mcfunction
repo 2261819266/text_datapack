@@ -1,1 +1,1 @@
-/data modify entity @e[type=item,sort=nearest,limit=1] Item.components."minecraft:enchantments".levels set value {"minecraft:sharpness": 255}
+data modify entity @e[type=item,sort=nearest,limit=1] Item.components."minecraft:enchantments".levels set value {"sharpness": 255}

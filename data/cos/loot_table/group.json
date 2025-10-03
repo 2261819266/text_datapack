@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": 100,
+            "entries_": [
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot"
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald",
+                    "weight": 2
+                }
+            ],
+            "entries": [
+                {
+                    "type": "minecraft:group",
+                    "children": [
+                        {
+                            "type": "item",
+                            "name": "minecraft:diamond",
+                            "weight": 3
+                        },
+                        {
+                            "type": "item",
+                            "name": "minecraft:gold_ingot",
+                            "weight": 1
+                        }
+                    ],
+                    "functions": []
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald",
+                    "weight": 2
+                }
+            ]
+        }
+    ]
+}

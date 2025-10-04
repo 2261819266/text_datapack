@@ -1,1 +1,1 @@
-scoreboard players set @s score 0 10
+# scoreboard players set @s score 0 10

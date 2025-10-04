@@ -1,0 +1,25 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "CA",
+    "AB",
+    " B"
+  ],
+  "key": {
+    "A": "diamond_block",
+    "C": "iron_block",
+    "B": "diamond"
+  },
+  "result": {
+    "id": "diamond_axe",
+    "components": {
+      "enchantments": {
+        "sharpness": 30
+      },
+      "damage": 1558,
+      "item_name": "Killer",
+      "custom_name": "Killer",
+      "repair_cost": 1000
+    }
+  }
+}

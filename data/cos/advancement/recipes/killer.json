@@ -1,0 +1,39 @@
+{
+  "parent": "cos:cos/root",
+  "criteria": {
+    "has_ingredients": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "diamond"
+          },
+          {
+            "items": "iron_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "cos:killer"
+    ],
+    "function": "cos:test"
+  },
+  "display": {
+    "icon": {
+      "id": "diamond_axe",
+      "components": {
+        "enchantments": {
+          "sharpness": 20
+        },
+        "damage": 3
+      }
+    },
+    "title": "Killer",
+    "description": "秒人斧",
+    "announce_to_chat": false,
+    "show_toast": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "title": "还真是",
+    "description": "还真是",
+    "icon": {
+      "id": "compass"
+    },
+    "background": "minecraft:textures/block/diamond_block.png",
+    "frame": "challenge"
+  },
+  "criteria": {
+    "hunters": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "team": "hunters"
+        }
+      }
+    },
+    "runners": {
+      "trigger": "tick",
+      "conditions": {
+        "player": {
+          "team": "runners"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["hunters", "runners"]
+  ],
+  "rewards": {
+    "function": "cos:fix"
+  }
+}

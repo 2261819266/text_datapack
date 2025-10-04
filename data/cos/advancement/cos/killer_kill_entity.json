@@ -1,0 +1,13 @@
+{
+  "parent": "cos:cos/root",
+  "criteria": {
+    "kill": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "killing_blow": {
+          
+        }
+      }
+    }
+  }
+}

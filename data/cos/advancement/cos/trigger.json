@@ -30,6 +30,6 @@
     ["hunters", "runners"]
   ],
   "rewards": {
-    "function": "cos:fix"
+    "function": "cos:show_title"
   }
 }

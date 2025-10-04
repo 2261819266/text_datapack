@@ -1,1 +1,1 @@
-title @a title ["\u00a7c\u00a7l还真是"]
+title @a title ["\u00a75\u00a7l还真是"]

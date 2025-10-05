@@ -1,15 +1,15 @@
 {
-  "parent": "cos:cos/root",
+  "parent": "minecraft:recipes/root",
   "criteria": {
     "has_ingredients": {
       "trigger": "inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "diamond"
+            "items": "minecraft:diamond"
           },
           {
-            "items": "iron_ingot"
+            "items": "minecraft:iron_ingot"
           }
         ]
       }
@@ -20,20 +20,5 @@
       "cos:killer"
     ],
     "function": "cos:test"
-  },
-  "display": {
-    "icon": {
-      "id": "diamond_axe",
-      "components": {
-        "enchantments": {
-          "sharpness": 20
-        },
-        "damage": 3
-      }
-    },
-    "title": "Killer",
-    "description": "秒人斧",
-    "announce_to_chat": false,
-    "show_toast": true
   }
 }

@@ -9,6 +9,16 @@
           "text": "猎人",
           "color": "red"
         }
+      },
+      {
+        "function": "set_components",
+        "components": {
+          "custom_data": {
+            "selector": {
+              "name": "hunters"
+            }
+          }
+        }
       }
     ]
   }

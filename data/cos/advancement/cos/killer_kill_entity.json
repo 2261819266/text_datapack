@@ -5,9 +5,26 @@
       "trigger": "player_killed_entity",
       "conditions": {
         "killing_blow": {
-          
+          "direct_entity": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:diamond_axe",
+                "components": {
+                  "item_name": "Killer"
+                }
+              }
+            }
+          }
         }
       }
     }
+  },
+  "display": {
+    "title": "秒人斧",
+    "description": "用秒人斧击杀一个实体",
+    "icon": {
+      "id": "diamond_axe"
+    },
+    "frame": "challenge"
   }
 }

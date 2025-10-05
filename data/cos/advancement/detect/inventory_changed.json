@@ -3,6 +3,14 @@
     "inventory": {
       "trigger": "minecraft:inventory_changed"
     },
+    "pt5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "periodic_tick": 5
+        }
+      }
+    },
     "pt20": {
       "trigger": "minecraft:tick",
       "conditions": {
@@ -10,22 +18,14 @@
           "periodic_tick": 20
         }
       }
-    },
-    "pt60": {
-      "trigger": "minecraft:tick",
-      "conditions": {
-        "player": {
-          "periodic_tick": 60
-        }
-      }
     }
   },
   "requirements": [
     [
-      "pt20"
+      "pt5"
     ],
     [
-      "pt60",
+      "pt20",
       "inventory"
     ]
   ],

@@ -1,0 +1,15 @@
+[
+  {
+    "function": "sequence",
+    "functions": [
+      {
+        "function": "minecraft:set_name",
+        "name": {
+          "italic": false,
+          "text": "巧 花 §k qiaohua",
+          "color": "red"
+        }
+      }
+    ]
+  }
+]

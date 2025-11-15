@@ -6,7 +6,7 @@
       "id": "compass"
     },
     "background": "minecraft:textures/block/diamond_block.png",
-    "frame": "challenge"
+    "frame": "task"
   },
   "criteria": {
     "hunters": {

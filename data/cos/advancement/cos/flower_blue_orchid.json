@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "player_killed_entity"
+    }
+  },
+  "display": {
+    "description": "击杀一个玩家",
+    "title": "太强了",
+    "icon": {
+      "id": "blue_orchid"
+    }
+  },
+  "parent": "cos:cos/root",
+  "rewards": {
+    "function": "cos:advancement/flower_blue_orchid"
+  }
+}

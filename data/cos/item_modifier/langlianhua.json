@@ -1,0 +1,15 @@
+[
+  {
+    "function": "sequence",
+    "functions": [
+      {
+        "function": "minecraft:set_name",
+        "name": {
+          "italic": false,
+          "text": "蓝 莲 花 §k langlianhua",
+          "color": "blue"
+        }
+      }
+    ]
+  }
+]

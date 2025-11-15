@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "kill": {
+      "trigger": "player_killed_entity",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "advancements": {
+              "cos:cos/flower_blue_orchid": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "description": "击杀两个玩家",
+    "title": "还真是太强了",
+    "icon": {
+      "id": "poppy"
+    },
+    "frame": "challenge"
+  },
+  "parent": "cos:cos/flower_blue_orchid",
+  "rewards": {
+    "function": "cos:advancement/flower_poppy"
+  }
+}

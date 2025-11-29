@@ -10,6 +10,9 @@
               "cos:cos/flower_blue_orchid": true
             }
           }
+        },
+        "entity": {
+          "type": "player"
         }
       }
     }

@@ -1,0 +1,15 @@
+[
+  {
+    "function": "set_name",
+    "name": {
+      "translate": "item.ex.checker",
+      "color": "dark_purple"
+    }
+  },
+  {
+    "function": "set_components",
+    "components": {
+      "item_name": "checker"
+    }
+  }
+]

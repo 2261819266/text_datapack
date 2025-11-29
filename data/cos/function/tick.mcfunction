@@ -1,0 +1,1 @@
+execute as @a[scores={cppUseCSt=1..}] run function cos:tools/use_cst

@@ -1,0 +1,1 @@
+tellraw @a "\u00a7athere has been a good structure below the distance of 100 meters"
